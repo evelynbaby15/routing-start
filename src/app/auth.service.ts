@@ -14,7 +14,7 @@ export class AuthService {
             (resolve, reject) => {
                 setTimeout(() => {
                     resolve(this.loggedIn);
-                }, 400);
+                }, 800);
             }
         );
         return promise;
